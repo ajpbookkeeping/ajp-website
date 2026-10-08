@@ -50,7 +50,7 @@ h3{font-family:var(--sans);font-weight:600;font-size:17px;color:var(--ink);margi
 p{margin:0 0 18px;max-width:64ch}
 .lede{font-size:19.5px;line-height:1.6;color:var(--muted);max-width:52ch}
 .page{padding:44px 0 8px}
-.block{padding:38px 0;border-top:1px solid var(--rule)}
+.block{padding:38px 0;border-top:1px solid var(--rule);scroll-margin-top:170px}
 .block:first-of-type{border-top:0}
 
 /* ledger rows */
