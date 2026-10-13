@@ -48,6 +48,7 @@
 
   <div class="block">
     <h2>Send a message</h2>
+    <p>Comparing providers? <a href="services.html">See pricing and tiers</a> before you get in touch.</p>
     <form class="enq" action="https://formspree.io/f/mnpnddzd" method="POST">
       <label for="n">Your name</label>
       <input id="n" name="name" type="text" required>
@@ -55,9 +56,17 @@
       <input id="b" name="business" type="text">
       <label for="e">Email</label>
       <input id="e" name="email" type="email" required>
+      <label for="t">What type of help do you need?</label>
+      <select id="t" name="enquiry_type">
+        <option value="Monthly bookkeeping">Monthly bookkeeping</option>
+        <option value="Catch-up bookkeeping">Catch-up bookkeeping</option>
+        <option value="Start-up offer">Start-up offer</option>
+        <option value="Something else">Something else</option>
+      </select>
       <label for="m">What do you need help with?</label>
       <textarea id="m" name="message" required></textarea>
       <p style="margin-top:22px"><button class="cta" type="submit">Send message</button></p>
+      <p class="after-cta">I'll review your message and get back to you within one working day to arrange a free 30-minute call.</p>
     </form>
   </div>
 </section>
